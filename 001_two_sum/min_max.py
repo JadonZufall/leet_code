@@ -7,7 +7,7 @@ Memory: 14.8mb, Beats 99.55 %
 from typing import List
 
 
-def twoSum(self, nums: List[int], target: int) -> List[int]:
+def twoSum(nums: List[int], target: int) -> List[int]:
     min_val = min(nums)
     max_val = max(nums)
     for index, value in enumerate(nums):
